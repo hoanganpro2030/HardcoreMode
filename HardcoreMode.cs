@@ -24,6 +24,7 @@ namespace HardcoreMode
 		const string SECTION_RECOVER = "Stat Recovery";
 		const string SECTION_PENALTY = "Penalties";
 		const string SECTION_WARN = "Warnings";
+		const string SECTION_LIBIDO = "Libido";
 
 		const string DESCRIPTION_PLAYER_LIFE =
 			"This enables the player survival stats. " +
@@ -150,6 +151,8 @@ namespace HardcoreMode
 		internal static ConfigEntry<int> FoodWarn { get; set; }
 		internal static ConfigEntry<int> StaminaWarn { get; set; }
 
+		internal static ConfigEntry<float> LibidoFactor { get; set; }
+
 		void Awake()
 		{
 			WindowIDStatus = Config.Bind(SECTION_GENERAL, "__Window ID (Status HUD)", 83462);
@@ -193,6 +196,8 @@ namespace HardcoreMode
 			AgentWarn = Config.Bind(SECTION_WARN, "Agent Health Warning", 30, new ConfigDescription(DESCRIPTION_AGENT_WARN, new AcceptableValueRange<int>(0, 100)));
 			FoodWarn = Config.Bind(SECTION_WARN, "Food Warning", 20, new ConfigDescription(DESCRIPTION_FOOD_WARN, new AcceptableValueRange<int>(0, 100)));
 			StaminaWarn = Config.Bind(SECTION_WARN, "Stamina Warning", 20, new ConfigDescription(DESCRIPTION_STAMINA_WARN, new AcceptableValueRange<int>(0, 100)));
+
+			LibidoFactor = Config.Bind(SECTION_LIBIDO, "Libido Increase Factor", 0.5f, new ConfigDescription("Multiplier for libido increase rate. 1.0 is normal speed, 0.5 is half speed.", new AcceptableValueRange<float>(0f, 2f)));
 
 			InitSetting(StatusX, Status.SetRect);
 			InitSetting(StatusY, Status.SetRect);

@@ -78,5 +78,12 @@ namespace HardcoreMode
 
 			return true;
 		}
+
+		[HarmonyPrefix]
+		[HarmonyPatch(typeof(ChaFile), "AddLibido")]
+		public static void Prefix_ChaFile_AddLibido(ref float value)
+		{
+			value *= LibidoFactor.Value;
+		}
 	}
 }
