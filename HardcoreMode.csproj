@@ -35,6 +35,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\core\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="0Harmony20, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\core\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="AIAPI">
       <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\plugins\AIAPI.dll</HintPath>
     </Reference>
