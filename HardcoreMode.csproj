@@ -33,31 +33,31 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\core\0Harmony.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\core\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="AIAPI">
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\plugins\AIAPI.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\plugins\AIAPI.dll</HintPath>
     </Reference>
     <Reference Include="AI_ExtensibleSaveFormat">
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\plugins\AI_BepisPlugins\AI_ExtensibleSaveFormat.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\plugins\AI_BepisPlugins\AI_ExtensibleSaveFormat.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\core\BepInEx.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Harmony">
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\core\BepInEx.Harmony.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\core\BepInEx.Harmony.dll</HintPath>
     </Reference>
     <Reference Include="ConfigurationManager">
-      <HintPath>F:\illusion\AI-Syoujyo\Bepinex\plugins\ConfigurationManager.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\Bepinex\plugins\ConfigurationManager.dll</HintPath>
     </Reference>
     <Reference Include="MessagePack">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\MessagePack.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\MessagePack.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\Sirenix.Serialization.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,20 +68,20 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>F:\illusion\AI-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\sof\fm\hlct\AIS\AIS\aig\AI-Syoujyo_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
